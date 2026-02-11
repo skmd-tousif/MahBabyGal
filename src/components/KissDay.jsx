@@ -3,7 +3,7 @@ export default function KissDay() {
     <div style={{textAlign:"center"}}>
       <h1>Happy Kiss Day 😘</h1>
 
-      <img src="/kiss.gif" width="200" />
+      <img src="/MahBabyGal/kiss.gif" width="200" />
 
       <p>
         Sanjana, distance is really really hard today.
