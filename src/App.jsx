@@ -9,11 +9,11 @@ function App() {
    // ===== PREVIEW MODE =====
   // change this manually to test
   // "hug" | "kiss" | "valentine" | null
-  const preview = "valentine";
+  // const preview = "valentine";
 
-  if (preview === "hug") return <HugDay />;
-  if (preview === "kiss") return <KissDay />;
-  if (preview === "valentine") return <ValentineDay />;
+  // if (preview === "hug") return <HugDay />;
+  // if (preview === "kiss") return <KissDay />;
+  // if (preview === "valentine") return <ValentineDay />;
 
   //---------------------------
   // controls whether surprise is opened
