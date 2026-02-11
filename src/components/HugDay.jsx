@@ -3,7 +3,7 @@ export default function HugDay() {
     <div style={{textAlign:"center"}}>
       <h1>Happy Hug Day 🤗</h1>
 
-      <img src="./public/hug.webp" width="200" />
+      <img src="../../public/hug.webp" width="200" />
 
       <p>
         If you were here, I would hug you so tight right now.
