@@ -9,7 +9,7 @@ function App() {
    // ===== PREVIEW MODE =====
   // change this manually to test
   // "hug" | "kiss" | "valentine" | null
-  const preview = "kiss";
+  const preview = "valentine";
 
   if (preview === "hug") return <HugDay />;
   if (preview === "kiss") return <KissDay />;
