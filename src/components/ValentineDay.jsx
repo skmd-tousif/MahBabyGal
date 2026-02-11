@@ -3,7 +3,7 @@ export default function ValentineDay() {
     <div style={{textAlign:"center"}}>
       <h1>Happy Valentine's Day babyyyyyyyyyyyyyyyyyyyy ❤️</h1>
 
-      <img src="../../public/valentine.gif" width="200" />
+      <img src="/valentine.gif" width="200" />
 
       <p>
         Even though 844.44345 miles separate us,
