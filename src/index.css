@@ -1,0 +1,107 @@
+/* ===== Romantic Theme ===== */
+
+:root {
+  font-family: "Segoe UI", "Poppins", cursive, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color: #5a2a3a;
+
+  background: linear-gradient(
+    135deg,
+    #ffe6f0,
+    #ffd6e7,
+    #fff0f5
+  );
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Body ===== */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #ffe6f0,
+    #ffd6e7,
+    #fff0f5
+  );
+}
+
+/* ===== Main Container (Love Card Effect) ===== */
+
+div {
+  text-align: center;
+  padding: 40px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 10px 30px rgba(255, 105, 135, 0.2),
+    0 0 40px rgba(255, 182, 193, 0.2);
+
+  max-width: 500px;
+}
+
+/* ===== Headings ===== */
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: #ff4d88;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #ff6699;
+}
+
+/* ===== Text ===== */
+
+p {
+  font-size: 1.1rem;
+  color: #6b3a4a;
+  margin: 10px 0;
+}
+
+/* ===== Images (Stickers) ===== */
+
+img {
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.08);
+}
+
+/* ===== Buttons (if added later) ===== */
+
+button {
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+
+  background: #ff80ab;
+  color: white;
+
+  box-shadow: 0 4px 12px rgba(255, 105, 135, 0.3);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #ff4d88;
+  transform: translateY(-2px);
+}
